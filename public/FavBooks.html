@@ -10,7 +10,7 @@
 
     <!--Compiled and minified JavaScript-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -39,78 +39,74 @@
 <table class="table">
   <thead class="thead-dark">
     <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
+      <th scope="col">Title</th>
+      <th scope="col">Author</th>
+      <th scope="col">Year Published</th>
+      <th scope="col">Publisher</th>
+      <th scope="col">Pages</th>
+      <th scope="col">MSRP</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+      <th scope="row">The Flight Girls</th>
+      <td scope="row">Noelle Salazar</td>
+      <td scope="row">2019</td>
+      <td scope="row">MIRA</td>
+      <td scope="row">384</td>
+      <td scope="row">$19.60</td>
     </tr>
     <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
+      <th scope="row">The old man and the sea</th>
+      <td scope="row">Ernest Hemingway</td>
+      <td scope="row">1952</td>
+      <td scope="row">Scriber; Reissue Edition</td>
+      <td scope="row">127</td>
+      <td scope="row">$10.39</td>
     </tr>
     <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>
-
-<table class="table">
-  <thead class="thead-light">
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+      <th scope="row">Of Mice and Men</th>
+      <td scope="row">John Steinbeck</td>
+      <td scope="row">1937</td>
+      <td scope="row">Penguin Books</td>
+      <td scope="row">107</td>
+      <td scope="row">$9.79</td>
     </tr>
     <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
+      <th scope="row">Lord of the Flies</th>
+      <td scope="row">William Golding</td>
+      <td scope="row">1954</td>
+      <td scope="row">Penguin Books</td>
+      <td scope="row">224</td>
+      <td scope="row">$5.99</td>
     </tr>
   </tbody>
 </table>
 
 <form>
   <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    <label for="exampleInputTitle">Title: </label>
+    <input type="text" class="form-control" id="exampleInputTitle" aria-describedby="titleHelp" placeholder="Enter Title">
   </div>
   <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    <label for="exampleInputAuthor">Author: </label>
+    <input type="text" class="form-control" id="exampleInputAuthor" aria-describedby="AuthorHelp" placeholder="Enter Author">
   </div>
-  <div class="form-group form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  <div class="form-group">
+    <label for="exampleInputPublished">Year Published: </label>
+    <input type="text" class="form-control" id="exampleInputPublished" aria-describedby="PublishedHelp" placeholder="Enter Published">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPublisher">Publisher: </label>
+    <input type="text" class="form-control" id="exampleInputPUblisher" aria-describedby="PublisherHelp" placeholder="Enter Publisher">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPages">Pages: </label>
+    <input type="text" class="form-control" id="exampleInputPages" aria-describedby="PagesHelp" placeholder="Enter Pages">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputMSRP">MSRP</label>
+    <input type="text" class="form-control" id="exampleInputMSRP" aria-describedby="MSRPHelp" placeholder="Enter MSRP">
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
