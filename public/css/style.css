@@ -3,3 +3,22 @@ header{
   color:white;
   font-family:"Roman",serif;
 }
+
+h2 {
+    margin-left: 18px;
+    font-size: 23px;
+    margin-bottom: 8px;
+}
+
+p {
+    padding-left: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+form {
+    font-family: sans-serif;
+} 
